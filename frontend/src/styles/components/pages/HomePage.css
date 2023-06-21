@@ -1,0 +1,62 @@
+/*.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}*/
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.floating-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .floating-whatsapp img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  /* Estilos para el texto central de la página */
+.bienvenidos {
+    text-align: justify; /* Alinear el texto justificado */
+    line-height: 1.5; /* Altura de línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+  
+  .main-content h1 {
+    font-size: 28px; /* Tamaño de fuente para títulos principales */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  .main-content h2 {
+    font-size: 24px; /* Tamaño de fuente para subtítulos */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  .main-content p {
+    margin-bottom: 10px; /* Espacio inferior */
+  }
+  
+  .main-content a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: underline; /* Subrayado del enlace */
+  }
+  
+  .main-content a:hover {
+    text-decoration: none; /* Sin subrayado al hacer hover */
+  }
+  

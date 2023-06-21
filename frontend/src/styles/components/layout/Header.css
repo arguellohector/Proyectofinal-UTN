@@ -1,0 +1,17 @@
+header {
+    padding: 132px 108px;
+    background-image: url('/public/images/imghome.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
